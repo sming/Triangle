@@ -39,7 +39,6 @@ public class TriangleSolver {
 		List<Node> ret = new ArrayList<Node>();
 		tryAdd(ret, node, -1);
 		tryAdd(ret, node, 0);
-		tryAdd(ret, node, 1);
 		
 		return ret;
 	}
